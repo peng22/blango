@@ -45,3 +45,35 @@ Using selector: EpollSelector
 Watching for file changes with StatReloader
 This is a logging message
 Got 2 posts
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+This is a logging message
+Got 2 posts
+This is a logging message
+Got 2 posts
+Not Found: /favicon.ico/
+This is a logging message
+Got 2 posts
+/home/codio/workspace/blango/blango/settings.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Not Found: /favicon.ico/
+This is a logging message
+Got 2 posts
+Not Found: /favicon.ico/
+Not Found: /favicon.ico/
+/home/codio/workspace/blango/blango/settings.py changed, reloading.
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Not Found: /favicon.ico/
+Not Found: /favicon.ico/
+/home/codio/workspace/blango/blango/settings.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Not Found: /favicon.ico/
+/home/codio/workspace/blango/blango/settings.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Not Found: /favicon.ico/
