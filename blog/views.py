@@ -3,6 +3,9 @@ from .models import *
 from django.shortcuts import render, get_object_or_404
 from django.shortcuts import redirect
 from blog.forms import CommentForm
+import logging
+logger = logging.getLogger(__name__)
+
 
 # Create your views here.
 def index(request):
@@ -11,7 +14,9 @@ def index(request):
       "posts":posts,
       
     }
-    
+    logger.debug("This is a logging message")
+    logger.debug("Got %d posts", len(posts))
+
     return render(request, "blog/index.html",context)
 
   
@@ -36,4 +41,8 @@ def post_detail(request, slug):
       "post":post,
       "comment_form": comment_form
     }        
+    logger.info(
+    "Created comment on Post %d for user %s", post.pk, request.user
+    )
+
     return render(request, "blog/post-details.html", context)

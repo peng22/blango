@@ -68,7 +68,7 @@ class Dev(Configuration):
   TEMPLATES = [
       {
           'BACKEND': 'django.template.backends.django.DjangoTemplates',
-          "DIRS": [BASE_DIR / "templates"],
+          "DIRS": [BASE_DIR / "blango/templates"],
           'APP_DIRS': True,
           'OPTIONS': {
               'context_processors': [
@@ -139,3 +139,17 @@ class Dev(Configuration):
   DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
   CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
   CRISPY_TEMPLATE_PACK = "bootstrap5"
+  LOGGING = {
+          "version": 1,
+          "disable_existing_loggers": False,
+          "handlers": {
+              "console": {"class": "logging.StreamHandler", "stream": "ext://sys.stdout"},
+              "file": {"class": "logging.FileHandler", "filename": os.path.join(BASE_DIR ,"blango.log")},
+
+             
+          },
+          "root": {
+              "handlers": ["console",'file'],
+              "level": "DEBUG",
+          }
+      }
