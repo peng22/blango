@@ -14,7 +14,19 @@ from django.views.decorators.vary import vary_on_cookie
 @cache_page(300)
 @vary_on_cookie
 def index(request):
-    posts = Post.objects.filter(published_at__lte=timezone.now())
+#   Here it will fetch only those fields
+#       posts = (
+#         Post.objects.filter(published_at__lte=timezone.now())
+#         .select_related("author")
+#         .only("title", "summary", "content", "author", "published_at", "slug")
+#     )
+# here it won't fetch those fields
+#     posts = (
+#         Post.objects.filter(published_at__lte=timezone.now())
+#         .select_related("author")
+#         .defer("created_at", "modified_at")
+#     )
+    posts = Post.objects.filter(published_at__lte=timezone.now()).select_related("author")
     logger.debug("Got %d posts", len(posts))
     return render(request, "blog/index.html", {"posts": posts})
   
