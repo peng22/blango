@@ -744,3 +744,104 @@ Watching for file changes with StatReloader
 /home/codio/workspace/blango/blango/urls.py changed, reloading.
 Using selector: EpollSelector
 Watching for file changes with StatReloader
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Using selector: EpollSelector
+Using selector: EpollSelector
+Using selector: EpollSelector
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "/home/codio/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 77, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 105, in dispatch
+    app = provider.get_app(self.request)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/base.py", line 49, in get_app
+    return adapter.get_app(request, self.id)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/adapter.py", line 204, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/models.py", line 32, in get_current
+    app = self.get(sites__id=site.id, provider=provider)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/db/models/query.py", line 437, in get
+    self.model._meta.object_name
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Not Found: /favicon.ico/
+Got 2 posts
+Got 2 posts
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "/home/codio/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 77, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 105, in dispatch
+    app = provider.get_app(self.request)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/base.py", line 49, in get_app
+    return adapter.get_app(request, self.id)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/adapter.py", line 204, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/models.py", line 32, in get_current
+    app = self.get(sites__id=site.id, provider=provider)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/db/models/query.py", line 437, in get
+    self.model._meta.object_name
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+Got 2 posts
+Got 2 posts
+Internal Server Error: /accounts/google/login/
+Traceback (most recent call last):
+  File "/home/codio/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 77, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/oauth2/views.py", line 105, in dispatch
+    app = provider.get_app(self.request)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/base.py", line 49, in get_app
+    return adapter.get_app(request, self.id)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/adapter.py", line 204, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "/home/codio/.local/lib/python3.6/site-packages/allauth/socialaccount/models.py", line 32, in get_current
+    app = self.get(sites__id=site.id, provider=provider)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/db/models/query.py", line 437, in get
+    self.model._meta.object_name
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+Got 2 posts
+Got 2 posts
+Got 2 posts
+Got 2 posts
+Starting new HTTPS connection (1): accounts.google.com
+https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): www.googleapis.com
+https://www.googleapis.com:443 "GET /oauth2/v1/userinfo?access_token=ya29.a0ARrdaM9hvgjxf9MmsSvVjOYYY7JoMexhODPzYHMb4phQxeLZsyCqxr4A55a7QO7_S8m_g7iZFx1DKyVunrbHXVtKw-7mfBehnLBQZL0YWFB6Co4zJk9pT9YHNBBOUiLrm9-HQzSdCQKSadbp0NjgkhyB36SE&alt=json HTTP/1.1" 200 None
+Not Found: /favicon.ico/
