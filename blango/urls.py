@@ -15,8 +15,29 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+import blango_auth.views
+from django_registration.backends.activation.views import RegistrationView
+from blango_auth.forms import BlangoRegistrationForm
+from datetime import timedelta
+
+from django.conf import settings
+from django.utils import timezone
+from blango_auth.models import User
+User.objects.filter(
+    is_active=False,
+    date_joined__lt=timezone.now() - timedelta(days=settings.ACCOUNT_ACTIVATION_DAYS)
+).delete()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('blog.urls')),
+    path("accounts/profile/", blango_auth.views.profile, name="profile"),
+    path(
+      "accounts/register/",
+        RegistrationView.as_view(form_class=BlangoRegistrationForm),
+      name="django_registration_register",
+      ),
+  path("accounts/", include("django_registration.backends.activation.urls")),
+  path('accounts/', include('django.contrib.auth.urls'))
+
 ]
