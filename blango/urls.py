@@ -41,5 +41,16 @@ urlpatterns = [
   path('accounts/', include('django.contrib.auth.urls')),
   path("accounts/", include("allauth.urls")),
 
+  #here we are using versioning This will allow us 
+  #to implement changes to the API without breaking
+  # backwards-compatibility with older clients. 
+  #While we won't be using it, Django Rest Framework 
+  #has support for versioning which allows you to reuse 
+  #the same view for different versions and alter the 
+  #view's response based on a special version attribute
+  # that's available. 
+  path("api/v1/", include("blog.api_urls")),
+
+
 
 ]
