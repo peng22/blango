@@ -49,7 +49,9 @@ urlpatterns = [
   #the same view for different versions and alter the 
   #view's response based on a special version attribute
   # that's available. 
-  path("api/v1/", include("blog.api_urls")),
+#   path("api/v1/", include("blog.api_urls")),
+  path("api/v1/", include("blog.api.urls"))
+
 
 
 

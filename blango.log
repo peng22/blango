@@ -19,3 +19,57 @@ Using selector: EpollSelector
 Using selector: EpollSelector
 Using selector: EpollSelector
 Watching for file changes with StatReloader
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Not Found: /api/v1
+Not Found: /api/v1/
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api_views.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api_views.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api_views.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Not Found: /api/v1/posts/1/
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/codio/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/codio/.local/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/codio/.local/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/codio/.local/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/codio/.local/lib/python3.6/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/codio/workspace/blango/blog/api_views.py", line 13, in post_list
+    if request.method == "GET":
+NameError: name 'request' is not defined
+/home/codio/workspace/blango/blog/api_views.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Not Found: /api/v1/posts/1/
+Not Found: /api/v1/posts/1/
+Not Found: /api/v1/posts/1/
+Not Found: /api/v1/posts/1/
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
