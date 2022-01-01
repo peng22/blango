@@ -103,3 +103,11 @@ Using selector: EpollSelector
 Using selector: EpollSelector
 Watching for file changes with StatReloader
 Got 2 posts
+Using selector: EpollSelector
+Using selector: EpollSelector
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
