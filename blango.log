@@ -73,3 +73,20 @@ Using selector: EpollSelector
 Using selector: EpollSelector
 Watching for file changes with StatReloader
 Got 2 posts
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Not Found: /api/v1
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Using selector: EpollSelector
+Starting new HTTPS connection (1): venus-king.codio.io
+https://venus-king.codio.io:443 "GET /api/v1/posts/ HTTP/1.1" 401 None
+Starting new HTTPS connection (1): venus-king.codio.io
+https://venus-king.codio.io:443 "GET /api/v1/posts/ HTTP/1.1" 401 None
+Using selector: EpollSelector
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
