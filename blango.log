@@ -114,3 +114,43 @@ Watching for file changes with StatReloader
 Using selector: EpollSelector
 Using selector: EpollSelector
 Watching for file changes with StatReloader
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Not Found: /api/v2/swagger
+Not Found: /api/v2/swagger/
+path component of api base URL https://alert-jungle-8000.codio.io/api/v1/ is ignored; use FORCE_SCRIPT_NAME instead
+path component of api base URL https://alert-jungle-8000.codio.io/api/v1/ is ignored; use FORCE_SCRIPT_NAME instead
+path component of api base URL https://alert-jungle-8000.codio.io/api/v1/ is ignored; use FORCE_SCRIPT_NAME instead
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/urls.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
