@@ -201,3 +201,5 @@ Not Found: /api/v1/tags/Django/
 /home/codio/workspace/blango/blog/api/views.py changed, reloading.
 Using selector: EpollSelector
 Watching for file changes with StatReloader
+Using selector: EpollSelector
+Unauthorized: /api/v1/posts/
