@@ -203,3 +203,5 @@ Using selector: EpollSelector
 Watching for file changes with StatReloader
 Using selector: EpollSelector
 Unauthorized: /api/v1/posts/
+Using selector: EpollSelector
+Unauthorized: /api/v1/posts/
