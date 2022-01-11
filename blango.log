@@ -223,3 +223,28 @@ Watching for file changes with StatReloader
 Using selector: EpollSelector
 Using selector: EpollSelector
 Watching for file changes with StatReloader
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Not Found: /api/tags
+/home/codio/workspace/blango/blog/api/views.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/codio/workspace/blango/blog/api/views.py changed, reloading.
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Not Found: /favicon.ico/
+Using selector: EpollSelector
+Unauthorized: /api/v1/posts/
+Using selector: EpollSelector
+Unauthorized: /api/v1/posts/
+Using selector: EpollSelector
+Unauthorized: /api/v1/posts/
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Got 2 posts
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader

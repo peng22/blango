@@ -20,8 +20,8 @@ class TagApiTestCase(LiveServerTestCase):
     def test_tag_list(self):
         resp = self.client.get(self.live_server_url + "/api/v1/tags/")
         self.assertEqual(resp.status_code, 200)
-        data = resp.json()
-        self.assertEqual(len(data), 4)
+        data = resp.json()["results"]
+        self.assertEqual(len(data), 1)
         self.assertEqual(self.tag_values, {t["value"] for t in data})
 
     def test_tag_create_basic_auth(self):

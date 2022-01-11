@@ -50,8 +50,8 @@ class PostApiTestCase(TestCase):
 
     def test_post_list(self):
         resp = self.client.get("/api/v1/posts/")
-        data = resp.json()
-        self.assertEqual(len(data), 2)
+        data = resp.json()["results"]
+        self.assertEqual(len(data), 1)
 
         for post_dict in data:
             post_obj = self.post_lookup[post_dict["id"]]
