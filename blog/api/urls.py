@@ -8,6 +8,7 @@ from drf_yasg.views import get_schema_view
 import os
 from rest_framework.routers import DefaultRouter
 from blog.api.views import UserDetail, TagViewSet, PostViewSet
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 
 schema_view = get_schema_view(
@@ -23,6 +24,8 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
+    path("jwt/", TokenObtainPairView.as_view(), name="jwt_obtain_pair"),
+    path("jwt/refresh/", TokenRefreshView.as_view(), name="jwt_refresh"),
     path("auth/", include("rest_framework.urls")),
     path("token-auth/", views.obtain_auth_token),  
     path("users/<str:email>", UserDetail.as_view(), name="api_user_detail"),
