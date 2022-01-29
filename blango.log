@@ -261,3 +261,10 @@ Watching for file changes with StatReloader
 Using selector: EpollSelector
 Using selector: EpollSelector
 Watching for file changes with StatReloader
+Using selector: EpollSelector
+Starting new HTTPS connection (1): jsonplaceholder.typicode.com
+https://jsonplaceholder.typicode.com:443 "GET /posts/1 HTTP/1.1" 200 None
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Bad Request: /api/v1/token-auth/
